@@ -1,7 +1,0 @@
-<Defaults>
-    <Button class="turnLikeButton" width="302" height="53" rectAlignment="UpperCenter" colors="White|Blue|Grey|#C0C0C07F" textColor="#000000" offsetXY="0 -77" allowDragging="true" fontSize="25" fontStyle="Bold" />
-	<Button class="gameplayButton" width="302" height="53" rectAlignment="MiddleRight" colors="White|Blue|Grey|#C0C0C07F" textColor="#000000" allowDragging="true" fontSize="25" fontStyle="Bold" />
-</Defaults>
-<Button id="setupButton" class="gameplayButton" text="Setup" onClick="setup" active="true" />
-<Button id="startButton" class="gameplayButton" text="Start" onClick="start" active="false" visibility="" />
-<Button id="startEncounterButton" class="gameplayButton" text="Start Encounter" onClick="startEncounter" active="false" visibility="" />
