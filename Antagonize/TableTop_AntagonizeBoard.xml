@@ -1,0 +1,1 @@
+<Image image="Tile" width="48" height="42" position="0 0 -21" raycastTarget="false" onClick="tileClicked" active="" visibility="" />

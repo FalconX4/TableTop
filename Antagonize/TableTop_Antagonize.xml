@@ -1,0 +1,12 @@
+<Defaults>
+  <Button class="turnLikeButton" width="302" height="53" rectAlignment="UpperCenter" offsetXY="0 -77" colors="White|Blue|Grey|#C0C0C07F" textColor="#000000" returnToOriginalPositionWhenReleased="false" allowDragging="true" fontSize="25" fontStyle="Bold" />
+	<Button class="gameplayButton" width="302" height="53" rectAlignment="MiddleLeft" offsetXY="0 -150" colors="White|Blue|Grey|#C0C0C07F" textColor="#000000" returnToOriginalPositionWhenReleased="false" allowDragging="true" fontSize="25" fontStyle="Bold" />
+</Defaults>
+<Button id="setupButton" class="turnLikeButton" text="Setup" onClick="setup" active="false" visibility="" />
+<Button id="readyButton" class="turnLikeButton" text="Ready" onClick="ready" active="false" visibility="" />
+<Button id="cancelReadyButton" class="turnLikeButton" text="Ready" onClick="ready" active="false" visibility="" />
+<Button id="cancelDiscardButton" class="turnLikeButton" text="Cancel Discard" onClick="cancelDiscard" active="false" visibility="" />
+<Button id="startEncounterButton" class="turnLikeButton" text="Start Encounter" onClick="startEncounter" active="false" visibility="" />
+<Button id="endEncounterButton" class="turnLikeButton" text="End Encounter" onClick="endEncounter" active="false" visibility="" />
+<Button id="endTurn" class="turnLikeButton" text="End Turn" onClick="endTurn" active="false" visibility="" />
+<Text id ="discardCardText" text="Discard a card (right click on the card -> Discard) or press the cancel button" color="#FFFFFFFF" fontSize="25" fontStyle="Bold" active="false" visibility="" />
